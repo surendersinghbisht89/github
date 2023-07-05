@@ -1,0 +1,9 @@
+---
+# tasks file for deadlock
+- name: check the asterisk logs
+  shell: "sudo cat /var/log/asterisk.1/full |grep 'Deadlock' |head -n 10"
+  register: deadlock
+
+- debug:
+        var: deadlock.stdout_lines
+

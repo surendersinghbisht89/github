@@ -1,0 +1,11 @@
+---
+# tasks file for ansible
+
+- name: check the physical memory
+  shell: vmstat -s
+  #  shell: sh -x /home/sbisht/project/jk
+  register: phy_mem
+
+- debug:
+        var: phy_mem.stdout_lines
+

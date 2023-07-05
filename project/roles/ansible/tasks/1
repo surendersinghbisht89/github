@@ -1,0 +1,1 @@
+free |grep -i MEM | awk '{$1=$2/(1024^2); print $1,"GB";}'

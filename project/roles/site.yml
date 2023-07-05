@@ -1,0 +1,8 @@
+---
+
+ - hosts: vreg
+   #remote_user: sbisht
+   #become: yes
+
+   roles:
+     - deadlock
