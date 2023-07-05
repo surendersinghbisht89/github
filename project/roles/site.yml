@@ -1,8 +1,8 @@
 ---
 
  - hosts: vreg
-   #remote_user: sbisht
-   #become: yes
+   # remote_user: sbisht
+   become: yes
 
    roles:
-     - deadlock
+     - ansible

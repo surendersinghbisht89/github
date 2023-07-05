@@ -1,2 +1,3 @@
 [vreg]
-xxxx	ansibel_ssh_user="" ansible_ssh_pass="" ansible_python_interpreter=/usr/bin/python3
+#10.57.2.190 ansibel_ssh_user="sbisht" ansible_ssh_pass="Surender@2814" ansible_python_interpreter=/usr/bin/python3
+10.57.2.190 ansible_python_interpreter=/usr/bin/python3
